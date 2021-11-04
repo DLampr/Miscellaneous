@@ -1,8 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
+"""This programm does what it suggests.
+   It calculates your age in years months and days."""
 
 from datetime import datetime, timedelta
 from dateutil import relativedelta
@@ -17,13 +14,6 @@ def age_calculator(birth_date):
 def main():
     age = input(f'Insert Your Birth Date (dd-mm-YYYY):\n')
     print(age_calculator(age))
-
+    
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
