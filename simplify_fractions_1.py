@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[37]:
-
-
 """The function takes numerator and denominator as inputs.
    Then returns and prints out the simplified fraction based on the greatest common divisor.
    Doesn't handle errors."""
@@ -21,10 +15,3 @@ def prog(number_up, number_down):
     print("Greatest common divisor: "+ str(int(numerator/number_up)))
     
 prog(numerator, denominator)
-
-
-# In[ ]:
-
-
-
-
