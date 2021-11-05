@@ -1,7 +1,6 @@
 """A program of addition or subtraction for our little friends.
    First they choose which of the two they want to practice.
-   There are deliberate differences per option to highlight some parameters that you can
-   modify yourself."""
+   There are deliberate differences per option to highlight some parameters that you can modify yourself."""
 
 import random
 
