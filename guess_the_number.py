@@ -1,5 +1,6 @@
 """This is a guess the number game. 
    The player has 6 guesses to find the secret number.
+   After each guess the computer informs us if that was above or below the secret number.
    """
 
 import random
