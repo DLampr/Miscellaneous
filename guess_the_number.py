@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 """This is a guess the number game. 
    The player has 6 guesses to find the secret number.
    """
@@ -31,10 +25,3 @@ if guess == secretNumber:
     print("Good job " + name + '! You guessed my number in ' + str(guessesTaken) + ' guesses!')
 else:
     print('Nope. The number I was thinking of was ' + str(secretNumber))
-
-
-# In[ ]:
-
-
-
-
