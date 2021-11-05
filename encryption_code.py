@@ -1,3 +1,7 @@
+"""A program that asks if you want to encrypt or decrypt a message. Then asks for the message itself and finally for a shift number.
+   The shift number will be the number you will have to remember or write down in case you want to decrypt the specific message you
+   encrypted.
+   Program stays on a loop unless you answer 'no' to the specific question."""
 
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 alphabet_new = alphabet*2 #We provide the alphabet two times for debugging reasons (when we want to encrypt the last letters of the alphabet)
