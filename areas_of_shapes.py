@@ -1,7 +1,7 @@
 """A program that can compute the areas of three shapes, triangles, rectangles and circles, when their dimensions are given.
    An endless loop asks for which shape you want the area be calculated.
    An empty string as input will exit the loop.
-   If the user gives a string that is none of the given shapes, the message “Unknown shape!” should be printed.
+   If the user gives a string that is none of the given shapes, the message “Unknown shape!” will be printed.
    Then it will ask for dimensions for that particular shape.
    When all the necessary dimensions are given, it prints the area, and starts the loop all over again."""
 
