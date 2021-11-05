@@ -1,5 +1,5 @@
 """Password Generator. Does what the title suggests.
-   Takes 3 inputs. Number of desired letters, number of desired symbols and number of desired numbers.
+   Takes 3 inputs: Number of desired letters, number of desired symbols and number of desired numbers.
    Then returns a random password based on these inputs."""
 
 import random
