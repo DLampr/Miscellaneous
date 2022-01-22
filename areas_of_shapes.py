@@ -5,22 +5,19 @@
    Then it will ask for dimensions for that particular shape.
    When all the necessary dimensions are given, it prints the area, and starts the loop all over again."""
 
-import math 
- 
-def main():
- 
-    def rectangle(w,h):
+def rectangle(w,h):
         """Calculates the area of a rectangle"""
         return w*h
     
-    def circle(r):
-        """Calculates the area of a circle"""
-        return (r**2)*math.pi
-    
-    def triangle(b,h):
-        """Calculates the area of a triangle"""
-        return (b*h)/2
- 
+def circle(r):
+    """Calculates the area of a circle"""
+    return (r**2)*math.pi
+
+def triangle(b,h):
+    """Calculates the area of a triangle"""
+    return (b*h)/2
+
+def main():
     while True:
         shape = input("Choose a shape (triangle, rectangle, circle): ")
         if shape == '':
